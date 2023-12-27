@@ -1,0 +1,27 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/style.css">
+    <title>Аптечный склад</title>
+</head>
+<body>
+<div class="main">
+
+    <header class="container flex-row">
+        <a href="${pageContext.request.contextPath}/">
+            <img id="logo" alt="Логотип" src="${pageContext.request.contextPath}/img/logo.jpg"/>
+        </a>
+        <h1>Аптечный склад</h1>
+    </header>
+
+    <div class="flex-row">
+        <div class="container flex-column sidenav">
+            <h3>Категории</h3>
+            <a href="#">Все</a>
+            <a href="#">Антибиотики</a>
+            <a href="#">Витамины</a>
+            <a href="#">Обезболивающие</a>
+            <a href="#">От кашля</a>
+            <a href="#">Мед. техника</a>
+        </div>
